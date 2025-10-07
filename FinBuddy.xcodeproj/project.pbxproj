@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		11837E332E94C7AE00B5704B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11837E192E94C7AC00B5704B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11837E202E94C7AC00B5704B;
+			remoteInfo = FinBuddy;
+		};
+		11837E3D2E94C7AE00B5704B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11837E192E94C7AC00B5704B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11837E202E94C7AC00B5704B;
+			remoteInfo = FinBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11837E212E94C7AC00B5704B /* FinBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11837E322E94C7AE00B5704B /* FinBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11837E3C2E94C7AE00B5704B /* FinBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		11837E442E94C7AE00B5704B /* Exceptions for "FinBuddy" folder in "FinBuddy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 11837E202E94C7AC00B5704B /* FinBuddy */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		11837E232E94C7AC00B5704B /* FinBuddy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				11837E442E94C7AE00B5704B /* Exceptions for "FinBuddy" folder in "FinBuddy" target */,
+			);
+			path = FinBuddy;
+			sourceTree = "<group>";
+		};
+		11837E352E94C7AE00B5704B /* FinBuddyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FinBuddyTests;
+			sourceTree = "<group>";
+		};
+		11837E3F2E94C7AE00B5704B /* FinBuddyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FinBuddyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11837E1E2E94C7AC00B5704B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11837E2F2E94C7AE00B5704B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11837E392E94C7AE00B5704B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11837E182E94C7AC00B5704B = {
+			isa = PBXGroup;
+			children = (
+				11837E232E94C7AC00B5704B /* FinBuddy */,
+				11837E352E94C7AE00B5704B /* FinBuddyTests */,
+				11837E3F2E94C7AE00B5704B /* FinBuddyUITests */,
+				11837E222E94C7AC00B5704B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11837E222E94C7AC00B5704B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11837E212E94C7AC00B5704B /* FinBuddy.app */,
+				11837E322E94C7AE00B5704B /* FinBuddyTests.xctest */,
+				11837E3C2E94C7AE00B5704B /* FinBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11837E202E94C7AC00B5704B /* FinBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11837E452E94C7AE00B5704B /* Build configuration list for PBXNativeTarget "FinBuddy" */;
+			buildPhases = (
+				11837E1D2E94C7AC00B5704B /* Sources */,
+				11837E1E2E94C7AC00B5704B /* Frameworks */,
+				11837E1F2E94C7AC00B5704B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				11837E232E94C7AC00B5704B /* FinBuddy */,
+			);
+			name = FinBuddy;
+			packageProductDependencies = (
+			);
+			productName = FinBuddy;
+			productReference = 11837E212E94C7AC00B5704B /* FinBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11837E312E94C7AE00B5704B /* FinBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11837E4A2E94C7AE00B5704B /* Build configuration list for PBXNativeTarget "FinBuddyTests" */;
+			buildPhases = (
+				11837E2E2E94C7AE00B5704B /* Sources */,
+				11837E2F2E94C7AE00B5704B /* Frameworks */,
+				11837E302E94C7AE00B5704B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11837E342E94C7AE00B5704B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				11837E352E94C7AE00B5704B /* FinBuddyTests */,
+			);
+			name = FinBuddyTests;
+			packageProductDependencies = (
+			);
+			productName = FinBuddyTests;
+			productReference = 11837E322E94C7AE00B5704B /* FinBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11837E3B2E94C7AE00B5704B /* FinBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11837E4D2E94C7AE00B5704B /* Build configuration list for PBXNativeTarget "FinBuddyUITests" */;
+			buildPhases = (
+				11837E382E94C7AE00B5704B /* Sources */,
+				11837E392E94C7AE00B5704B /* Frameworks */,
+				11837E3A2E94C7AE00B5704B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11837E3E2E94C7AE00B5704B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				11837E3F2E94C7AE00B5704B /* FinBuddyUITests */,
+			);
+			name = FinBuddyUITests;
+			packageProductDependencies = (
+			);
+			productName = FinBuddyUITests;
+			productReference = 11837E3C2E94C7AE00B5704B /* FinBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11837E192E94C7AC00B5704B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					11837E202E94C7AC00B5704B = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					11837E312E94C7AE00B5704B = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 11837E202E94C7AC00B5704B;
+					};
+					11837E3B2E94C7AE00B5704B = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 11837E202E94C7AC00B5704B;
+					};
+				};
+			};
+			buildConfigurationList = 11837E1C2E94C7AC00B5704B /* Build configuration list for PBXProject "FinBuddy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11837E182E94C7AC00B5704B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 11837E222E94C7AC00B5704B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11837E202E94C7AC00B5704B /* FinBuddy */,
+				11837E312E94C7AE00B5704B /* FinBuddyTests */,
+				11837E3B2E94C7AE00B5704B /* FinBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11837E1F2E94C7AC00B5704B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11837E302E94C7AE00B5704B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11837E3A2E94C7AE00B5704B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11837E1D2E94C7AC00B5704B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11837E2E2E94C7AE00B5704B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11837E382E94C7AE00B5704B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11837E342E94C7AE00B5704B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11837E202E94C7AC00B5704B /* FinBuddy */;
+			targetProxy = 11837E332E94C7AE00B5704B /* PBXContainerItemProxy */;
+		};
+		11837E3E2E94C7AE00B5704B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11837E202E94C7AC00B5704B /* FinBuddy */;
+			targetProxy = 11837E3D2E94C7AE00B5704B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11837E462E94C7AE00B5704B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FinBuddy/FinBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ASQJ436297;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinBuddy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tanmaydabhade.FinBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11837E472E94C7AE00B5704B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FinBuddy/FinBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ASQJ436297;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinBuddy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tanmaydabhade.FinBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11837E482E94C7AE00B5704B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ASQJ436297;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11837E492E94C7AE00B5704B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ASQJ436297;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11837E4B2E94C7AE00B5704B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ASQJ436297;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tanmaydabhade.FinBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinBuddy";
+			};
+			name = Debug;
+		};
+		11837E4C2E94C7AE00B5704B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ASQJ436297;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tanmaydabhade.FinBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinBuddy";
+			};
+			name = Release;
+		};
+		11837E4E2E94C7AE00B5704B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ASQJ436297;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tanmaydabhade.FinBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinBuddy;
+			};
+			name = Debug;
+		};
+		11837E4F2E94C7AE00B5704B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ASQJ436297;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tanmaydabhade.FinBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinBuddy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11837E1C2E94C7AC00B5704B /* Build configuration list for PBXProject "FinBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11837E482E94C7AE00B5704B /* Debug */,
+				11837E492E94C7AE00B5704B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11837E452E94C7AE00B5704B /* Build configuration list for PBXNativeTarget "FinBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11837E462E94C7AE00B5704B /* Debug */,
+				11837E472E94C7AE00B5704B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11837E4A2E94C7AE00B5704B /* Build configuration list for PBXNativeTarget "FinBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11837E4B2E94C7AE00B5704B /* Debug */,
+				11837E4C2E94C7AE00B5704B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11837E4D2E94C7AE00B5704B /* Build configuration list for PBXNativeTarget "FinBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11837E4E2E94C7AE00B5704B /* Debug */,
+				11837E4F2E94C7AE00B5704B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11837E192E94C7AC00B5704B /* Project object */;
+}
